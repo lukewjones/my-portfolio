@@ -3,6 +3,8 @@ import './App.css'
 import RefCards from './components/RefCards.tsx'
 import Header from './components/Header'
 import Skills from './components/Skills.tsx'
+import Work from './components/Work.tsx'
+import Footer from './components/Footer.tsx'
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           </div>
           <Skills />
         </div>
+        <Work />
+        <Footer />
       </div>
     </>
   )

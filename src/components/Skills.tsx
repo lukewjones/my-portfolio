@@ -4,7 +4,7 @@ import { icons } from "./data";
 export default function Skills() {
     return (
         <>
-            <div className="skills-title">Skills</div>
+            <div className="title">Skills</div>
             <div className="skills-container">
                 {icons.map((icon, index) => (
                     <div className="icon" key={index}>
@@ -14,5 +14,5 @@ export default function Skills() {
                 ))}
             </div>
         </>
-    );
+    )
 }
