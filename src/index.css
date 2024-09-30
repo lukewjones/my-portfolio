@@ -158,6 +158,7 @@ body {
 .title {
     font-weight: 700;
     font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .icon {
@@ -248,10 +249,10 @@ body {
 .footer {
     padding: 2rem 1.5rem;
     background-color: #15191E;
+    color: #888A8D;
 }
 
 .interest {
-    color: #888A8D;
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 1px;
@@ -266,8 +267,42 @@ body {
     font-size: 56px;
     color: #FFFFFF;
     letter-spacing: 2px;
+    margin-top: 2rem;
+}
+
+.chat-container svg {
+    padding-top: 12px;
+    width: 40px;
+    margin-right: .5rem;
 }
 
 .chat-text {
     margin: 0;
 }
+
+.account {
+    display: flex;
+}
+
+.account-handle {
+    margin-left: .5rem;
+    background: none;
+    text-decoration: underline;
+}
+
+.X, .X:visited {
+    color: #9d00ff;
+}
+
+.LinkedIn, .LinkedIn:visited {
+    color: #0EA5E9;
+}
+
+.Email, .Email:visited {
+    color: #FF7A00;
+}
+
+.Resumé, .Resumé:visited {
+    color: #009959;
+}
+

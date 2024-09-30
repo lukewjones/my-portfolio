@@ -1,3 +1,4 @@
+
 type Reference = {
   name: string;
   description: string;
@@ -13,6 +14,12 @@ type Proj = {
   img: string; 
   name: string;
   type: string;
+}
+
+export interface Social {
+  platform: string;
+  handle: string;
+  link: string;
 }
 
 export const references: Reference[] = [
@@ -112,7 +119,7 @@ export const projects: Proj[] = [
   },
 ]
 
-export const socials = [
+export const socials: Social[] = [
   {
     platform: 'X',
     handle: '@lvke_j',
@@ -126,11 +133,11 @@ export const socials = [
   {
     platform: 'Email',
     handle: 'lukewjones2004@gmail.com',
-    link: 'lukewjones2004@gmail.com',
+    link: 'mailto:lukewjones2004@gmail.com?subject=Hello%20Luke&body=I%20would%20like%20to%20connect%20with%20you!'
   },
   {
     platform: 'Resumé',
     handle: 'Download',
-    link: '',
+    link: 'resume',
   },
 ]
