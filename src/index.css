@@ -280,8 +280,13 @@ body {
     margin: 0;
 }
 
+.socials-container {
+    margin-top: 2rem;
+}
+
 .account {
     display: flex;
+    margin-bottom: .5rem;
 }
 
 .account-handle {
