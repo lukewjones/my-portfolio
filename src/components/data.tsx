@@ -103,17 +103,17 @@ export const icons: Icon[] = [
 
 export const projects: Proj[] = [
   {
-    img: "public/imgs/habit-tracker.jpg",
+    img: "\/imgs/habit-tracker.jpg",
     name: "Habit Tracker",
     type: "idea",
   },
   {
-    img: "public/imgs/password-generator.jpg",
+    img: "/imgs/password-generator.jpg",
     name: "Password Generator",
     type: "scrimba",
   },
   {
-    img: "public/imgs/shopping-list.jpg",
+    img: "/imgs/shopping-list.jpg",
     name: "Shopping List",
     type: "scrimba",
   },
