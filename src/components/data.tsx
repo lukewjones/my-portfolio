@@ -30,7 +30,7 @@ export const references: Reference[] = [
   },
   {
     name: "Seth Kasten",
-    description: "His attention to detail and quality is outstanding. Working with Luke is an absolute pleasure every time I get the opportunity!",
+    description: "Working with Luke is an absolute pleasure every time I get the opportunity! His attention to detail and quality is outstanding.",
     affiliation: "rising developer"
   },
   {
@@ -45,8 +45,8 @@ export const references: Reference[] = [
   },
   {
     name: "Brandon McConnell",
-    description: "Luke is a great friend and even less great developer, but he’s working on it! Be nice to him. He has feelings too.",
-    affiliation: "Best known for his design + photography work"
+    description: "Luke is one of the most determined people I have ever met. He approaches new challenges with an eagerness to overcome it and grow in the process.",
+    affiliation: "Slinger of the best tailwind plugins you can find"
   },
   {
     name: "Noah Jones",
@@ -103,7 +103,7 @@ export const icons: Icon[] = [
 
 export const projects: Proj[] = [
   {
-    img: "\/imgs/habit-tracker.jpg",
+    img: "/imgs/habit-tracker.jpg",
     name: "Habit Tracker",
     type: "idea",
   },
@@ -129,6 +129,11 @@ export const socials: Social[] = [
     platform: 'LinkedIn',
     handle: 'Luke Jones',
     link: 'https://www.linkedin.com/in/luke-w-jones',
+  },
+  {
+    platform: 'GitHub',
+    handle: 'lukewjones',
+    link: 'https://github.com/lukewjones',
   },
   {
     platform: 'Email',
