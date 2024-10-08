@@ -1,5 +1,5 @@
 
-type Reference = {
+export type Reference = {
   name: string;
   description: string;
   affiliation: string;

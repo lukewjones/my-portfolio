@@ -1,10 +1,12 @@
-// import { useState } from 'react'
+import { Fragment } from 'react'
 import './App.css'
-import RefCards from './components/RefCards.tsx'
 import Header from './components/Header'
 import Skills from './components/Skills.tsx'
 import Work from './components/Work.tsx'
 import Footer from './components/Footer.tsx'
+import RefCard from './components/RefCard.tsx'
+import { references } from './components/data.tsx';
+import { HorizontalTicker } from "react-infinite-ticker";
 
 function App() {
   return (
@@ -12,7 +14,21 @@ function App() {
       <Header />
       <div className='site'>
         <div className='hook'>A jr. front-end engineer—excited to build products people love.</div>
-        <RefCards />
+
+        <div className="cards-wrapper">
+          <div className="cards">
+            <HorizontalTicker duration={90000} className="test">
+              {references.map((refData) => {
+                return (
+                  <Fragment key={refData.description}>
+                    <RefCard {...refData} />
+                  </Fragment>
+                )
+              })}
+            </HorizontalTicker>
+          </div>
+        </div>
+
         <div className='container'>
           <div className='about-me'>
             <div className='intro'>Hi, I'm Luke Jones.</div>

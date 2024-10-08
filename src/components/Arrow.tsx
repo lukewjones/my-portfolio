@@ -1,6 +1,6 @@
 export default function Arrow() {
     return (
-        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="arrow" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M20 33.999L34 19.9991L20 5.99902M0 19.9991L33 19.999"
                 stroke="#EB00FF"
