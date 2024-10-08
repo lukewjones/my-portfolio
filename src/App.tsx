@@ -33,20 +33,20 @@ function App() {
           <div className='about-me'>
             <div className='intro'>Hi, I'm Luke Jones.</div>
             <div className='text'>
-              I am a junior front-end engineer, who is eager to make my mark on the world of software engineering. 
-              Driven by determination to grow, im always excited to take on challengesand learn new things!
+              I am a junior front-end engineer to make meaningful contributions to the software engineering landscape. 
+              Driven by determination to grow, I'm always excited to take on new challenges and learn new things!
               <br />
               <br />
-              I learned SWE from the Frontend Developer Career Path on Scrimba.com which helped me become very familiar with
-              HTML, CSS, JavaScript, and React, as well as many other concepts essential to software engineering.
+              I honed my software engineering skills through the Frontend Developer Career Path on Scrimba, 
+              where I became proficient in HTML, CSS, JavaScript, React, and other key software engineering concepts.
               <br />
               <br />
-              Away from the screen, I'm a people person who loves concerts, photography, movies,
-               meeting new people and building friendships with anyone and everyone.
+              Outside of coding, I’m a people person who loves concerts, photography, movies, meeting new people,
+              and building friendships with anyone and everyone.
               <br />
               <br />
-              Reach out to me if you'd like to collaborate on a project, discuss web development,
-              or simply connect over our shared passions.
+              Feel free to reach out if you’d like to collaborate on a project, talk web development, or 
+              simply connect over shared passions.
             </div>
           </div>
           <div className='container-two'>
