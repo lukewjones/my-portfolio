@@ -5,8 +5,8 @@ import Skills from './components/Skills.tsx'
 import Work from './components/Work.tsx'
 import Footer from './components/Footer.tsx'
 import RefCard from './components/RefCard.tsx'
-import { references } from './components/data.tsx';
-import { HorizontalTicker } from "react-infinite-ticker";
+import { references } from './components/data.tsx'
+import { HorizontalTicker } from "react-infinite-ticker"
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
 
         <div className="cards-wrapper">
           <div className="cards">
-            <HorizontalTicker duration={90000} className="test">
+            <HorizontalTicker duration={90000}>
               {references.map((refData) => {
                 return (
                   <Fragment key={refData.description}>

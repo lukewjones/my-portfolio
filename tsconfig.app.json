@@ -18,7 +18,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Path Mapping for react-infinite-ticker */
+    "baseUrl": ".",
+    "paths": {
+      "react-infinite-ticker": [
+        "node_modules/react-infinite-ticker/dist/index.d.ts"
+      ]
+    }
   },
   "include": ["src"]
 }
