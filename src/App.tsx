@@ -33,7 +33,7 @@ function App() {
           <div className='about-me'>
             <div className='intro'>Hi, I'm Luke Jones.</div>
             <div className='text'>
-              I am a junior front-end engineer to make meaningful contributions to the software engineering landscape. 
+              I am a junior front-end engineer, eager to make meaningful contributions to the software engineering landscape. 
               Driven by determination to grow, I'm always excited to take on new challenges and learn new things!
               <br />
               <br />
