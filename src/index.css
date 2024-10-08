@@ -151,9 +151,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
-    margin: 0 auto;
 }
 
 .title {
@@ -384,7 +383,9 @@ body {
     }
 
     .skills-container {
-        padding: 1rem 0 4rem 0;
+        padding: 1rem 0 4rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .work-container {
