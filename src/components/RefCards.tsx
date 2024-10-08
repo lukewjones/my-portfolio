@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import {references} from './data';
+import { references } from './data';
 
 type Reference = {
   name: string;
@@ -9,7 +9,7 @@ type Reference = {
 
 export default function RefCards() {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const scrollSpeed = 0.5;
+  const scrollSpeed = window.innerWidth < 768 ? 0.2 : 0.5; // Slower scroll on mobile
 
   useEffect(() => {
     const scrollContainer = scrollRef.current;
@@ -35,10 +35,10 @@ export default function RefCards() {
 
     // Cleanup the animation when the component unmounts
     return () => cancelAnimationFrame(animationFrameId);
-  }, []);
+  }, [scrollSpeed]);
 
   // Duplicate references multiple times to ensure there's always content to scroll through
-  const duplicatedReferences = [...references, ...references, ...references]; // Duplicate multiple times for a continuous effect
+  const duplicatedReferences = [...references, ...references, ...references];
 
   return (
     <div className="cards-wrapper" ref={scrollRef}>
