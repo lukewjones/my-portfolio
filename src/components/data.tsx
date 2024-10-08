@@ -26,7 +26,7 @@ export const references: Reference[] = [
   {
     name: "Levi Jones",
     description: "something nice about me so I can put it on my website",
-    affiliation: "Name seen in post by Soren Iveson - Rising standup comedian"
+    affiliation: "Rising standup comic"
   },
   {
     name: "Seth Kasten",
@@ -36,7 +36,7 @@ export const references: Reference[] = [
   {
     name: "Ezekiel Augustin Murphy",
     description: "I liked your sweatshirt last night",
-    affiliation: "Sweatshirt aficionado - cancer survivor"
+    affiliation: "world class sweatshirt aficionado"
   },
   {
     name: "Luke Jones",

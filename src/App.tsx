@@ -33,19 +33,19 @@ function App() {
           <div className='about-me'>
             <div className='intro'>Hi, I'm Luke Jones.</div>
             <div className='text'>
-              My specialty is in creating web systems with exceptional performance, and an attentiveness to detail 
-              that allows me to succeed in building pixel perfect, meticulously crafted digital experiences.
+              I am a junior front-end engineer, who is eager to make my mark on the world of software engineering. 
+              Driven by determination to grow, im always excited to take on challengesand learn new things!
               <br />
               <br />
-              I'm an active contributor to the open-source ecosystems creating and contributing to packages, developer 
-              tools and plugins, and language specs around languages and frameworks like React, Svelte, and Tailwind CSS
+              I learned SWE from the Frontend Developer Career Path on Scrimba.com which helped me become very familiar with
+              HTML, CSS, JavaScript, and React, as well as many other concepts essential to software engineering.
               <br />
               <br />
-              Away from the screen, I'm an extrovert who loves to engage in outdoor adventures, travel, meet new 
-              people, and cherish moments with family and close friends.
+              Away from the screen, I'm a people person who loves concerts, photography, movies,
+               meeting new people and building friendships with anyone and everyone.
               <br />
               <br />
-              Feel free to reach out if you'd like to collaborate, discuss web development, 
+              Reach out to me if you'd like to collaborate on a project, discuss web development,
               or simply connect over our shared passions.
             </div>
           </div>
