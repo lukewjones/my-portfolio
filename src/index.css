@@ -156,7 +156,7 @@ body {
 }
 
 .title {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 2px;
@@ -217,7 +217,7 @@ body {
 
 .proj-type {
     margin-top: 0.5rem;
-    padding: 8px 12px;
+    padding: 6px 12px 8px 12px;
     border-radius: 0.5rem;
     border: 1px solid;
     font-weight: 800;
@@ -256,7 +256,7 @@ body {
     font-size: 56px;
     color: #FFFFFF;
     letter-spacing: 2px;
-    margin-top: 2rem;
+    margin-top: -.5rem;
 }
 
 .arrow {
@@ -266,7 +266,15 @@ body {
 }
 
 .socials-container {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.handles-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
 }
 
 .account {
@@ -298,6 +306,8 @@ body {
 
 .Resumé, .Resumé:visited {
     color: #009959;
+    display: flex;
+    padding: 0;
 }
 
 /* Responsive (min-width: 1024px) */
@@ -416,14 +426,10 @@ body {
     
     .chat-container {
         font-size: 6rem;
-        margin: 48px 0;
+        margin: -16px 0 32px 0;
     }
 
     .socials-container {
-        display: flex;
-        flex-direction: row;
-        max-width: 1000px;
-        justify-content: space-around;
         font-size: 1.125rem;
     }
 

@@ -136,13 +136,13 @@ export const socials: Social[] = [
     link: 'https://github.com/lukewjones',
   },
   {
-    platform: 'Email',
-    handle: 'lukewjones2004@gmail.com',
-    link: 'mailto:lukewjones2004@gmail.com?subject=Hello%20Luke&body=I%20would%20like%20to%20connect%20with%20you!'
-  },
-  {
     platform: 'Resumé',
     handle: 'Download',
     link: 'resume',
+  },
+  {
+    platform: 'Email',
+    handle: 'lukewjones2004@gmail.com',
+    link: 'mailto:lukewjones2004@gmail.com?subject=Hello%20Luke&body=I%20would%20like%20to%20connect%20with%20you!'
   },
 ]
