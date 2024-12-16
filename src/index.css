@@ -61,6 +61,7 @@ body {
     font-weight: 700;
     margin: 0 auto;
     padding: 0 1.5rem;
+    line-height: 112%;
 }
 
 /* Cards */
@@ -127,17 +128,19 @@ body {
     letter-spacing: 0.04rem;
 }
 
-.intro {
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-}
-
 .text {
     font-size: 1.25rem;
     margin-bottom: 3rem;
 }
+
+.instagram, .instagram:visited {
+    color: #0085FF;
+}
+
+.letterboxd, .letterboxd:visited {
+    color: #9E00FF;
+}
+
 
 /* Skills */
 
@@ -353,7 +356,7 @@ body {
     }
 
     .about-me {
-        max-width: 786px;
+        max-width: 720px;
         padding: 0;
         margin: 0;
     }
@@ -364,7 +367,7 @@ body {
     }
 
     .text {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         line-height: 132%;
     }
 
@@ -381,7 +384,7 @@ body {
     .skills {
         padding: 0;
         min-width: 224px;
-        max-width: 786px;
+        max-width: 720px;
     }
 
     .skills-container {

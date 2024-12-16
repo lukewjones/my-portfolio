@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <div className='site'>
-        <div className='hook'>A jr. front-end engineer—excited to build products people love.</div>
+        <h1 className='hook'>A jr. front-end engineer—excited to build products people love.</h1>
 
         <div className="cards-wrapper">
           <div className="cards">
@@ -31,9 +31,9 @@ function App() {
 
         <div className='container'>
           <div className='about-me'>
-            <div className='intro'>Hi, I'm Luke Jones.</div>
+            <div className='title'>About Me</div>
             <div className='text'>
-              I am a junior front-end engineer, eager to make meaningful contributions to the software engineering landscape. 
+              Hi, I'm Luke Jones! I am a junior front-end engineer, eager to make meaningful contributions to the software engineering landscape. 
               Driven by determination to grow, I'm always excited to take on new challenges and learn new things!
               <br />
               <br />
@@ -41,11 +41,11 @@ function App() {
               where I became proficient in HTML, CSS, JavaScript, React, and other key software engineering concepts.
               <br />
               <br />
-              Outside of coding, I’m a people person who loves concerts, photography, movies, meeting new people,
+              Outside of coding, I’m a people person who loves concerts, <a className='instagram' href='https://www.instagram.com/luke_william_jones/' >photography</a>, <a className='letterboxd' href='https://boxd.it/BhP5a'>movies</a>, meeting new people,
               and building friendships with anyone and everyone.
               <br />
               <br />
-              Feel free to reach out if you’d like to collaborate on a project, talk web development, or 
+              Feel free to <a className='Email' href='mailto:lukewjones2004@gmail.com?subject=Hello%20Luke&body=I%20would%20like%20to%20connect%20with%20you!'>reach out</a> if you’d like to collaborate on a project, talk web development, or 
               simply connect over shared passions.
             </div>
           </div>
