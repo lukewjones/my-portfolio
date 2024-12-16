@@ -7,7 +7,7 @@ export default function Work() {
 
     return (
         <div className="work">
-            <div className="title">WORK</div>
+            <div className="title">Work</div>
             <div className="work-container">
                 {projects.map((proj, index) => (
                     <div className="proj" key={index}>
