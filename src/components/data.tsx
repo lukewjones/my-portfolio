@@ -113,14 +113,14 @@ export const projects: Proj[] = [
     type: "javascript",
   },
   {
-    img: "/imgs/shopping-list.jpg",
-    name: "Shopping List",
-    type: "javascript",
-  },
-  {
     img: "/imgs/invoice-creator.jpg",
     name: "Invoice Creator",
     type: "react",
+  },
+  {
+    img: "/imgs/shopping-list.jpg",
+    name: "Shopping List",
+    type: "javascript",
   },
 ]
 
