@@ -230,15 +230,21 @@ body {
     display: inline-block;
 }
 
-.idea {
+.javascript {
     color: #FF7A00;
     background-color: #FF7A0014;
 }
 
-.scrimba {
+.react {
     color: #0085FF;
     background-color: #0085FF14;
 }
+
+.native {
+    color: #9E00FF;
+    background-color: #9E00FF14;
+}
+
 
 /* Footer */
 .footer {

@@ -105,17 +105,22 @@ export const projects: Proj[] = [
   {
     img: "/imgs/habit-tracker.jpg",
     name: "Habit Tracker",
-    type: "idea",
+    type: "react native",
   },
   {
     img: "/imgs/password-generator.jpg",
     name: "Password Generator",
-    type: "scrimba",
+    type: "javascript",
   },
   {
     img: "/imgs/shopping-list.jpg",
     name: "Shopping List",
-    type: "scrimba",
+    type: "javascript",
+  },
+  {
+    img: "/imgs/invoice-creator.jpg",
+    name: "Invoice Creator",
+    type: "react",
   },
 ]
 
