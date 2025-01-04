@@ -1,12 +1,12 @@
-import { Fragment } from 'react'
+// import { Fragment } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Skills from './components/Skills.tsx'
 import Work from './components/Work.tsx'
 import Footer from './components/Footer.tsx'
-import RefCard from './components/RefCard.tsx'
-import { references } from './components/data.tsx'
-import { HorizontalTicker } from "react-infinite-ticker"
+// import RefCard from './components/RefCard.tsx'
+// import { references } from './components/data.tsx'
+// import { HorizontalTicker } from "react-infinite-ticker"
 
 function App() {
   return (
