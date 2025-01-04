@@ -15,7 +15,7 @@ function App() {
       <div className='site'>
         <h1 className='hook'>A jr. front-end engineer—excited to build products people love.</h1>
 
-        <div className="cards-wrapper">
+        {/* <div className="cards-wrapper">
           <div className="cards">
             <HorizontalTicker duration={90000}>
               {references.map((refData) => {
@@ -27,7 +27,7 @@ function App() {
               })}
             </HorizontalTicker>
           </div>
-        </div>
+        </div> */}
 
         <div className='container'>
           <div className='about-me'>
